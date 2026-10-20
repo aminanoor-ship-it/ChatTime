@@ -1,6 +1,38 @@
-# ChatTime — Real-time Chat
+<div align="center">
 
-A full-stack real-time messaging website: private chats, groups with roles, file and voice sharing, read receipts, and an admin panel. Built with **React + Vite**, **Node.js + Express**, **Socket.IO** and **MySQL 8**.
+# ChatTime
+
+### Every chat is a story.
+
+Private conversations, lively groups, and shared moments in one place.
+
+![React](https://img.shields.io/badge/React-18-61DAFB?style=flat-square&logo=react&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-6-646CFF?style=flat-square&logo=vite&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-20%2B-339933?style=flat-square&logo=node.js&logoColor=white)
+![Socket.IO](https://img.shields.io/badge/Socket.IO-Realtime-010101?style=flat-square&logo=socketdotio&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-8-4479A1?style=flat-square&logo=mysql&logoColor=white)
+
+[Preview](#preview) · [Features](#features) · [Getting started](#getting-started) · [Commands](#commands) · [Troubleshooting](#troubleshooting)
+
+</div>
+
+---
+
+## Preview
+
+![ChatTime login page with a blue story panel and a responsive sign-in form](docs/images/chattime-login.png)
+
+<div align="center">
+  <sub>A welcoming start to your next conversation.</sub>
+</div>
+
+## About the project
+
+ChatTime is a full-stack messaging website built with **React + Vite**, **Node.js + Express**, **Socket.IO**, and **MySQL 8**. Chat privately, create groups, share files and voice notes, and keep conversations organised with a responsive inbox and an integrated admin panel.
+
+| Stay connected | Share more | Make it yours |
+| --- | --- | --- |
+| Live messages, typing indicators, and read receipts | Photos, documents, videos, and voice notes | Profile photos, favourites, pinned chats, and notification preferences |
 
 ## Features
 
@@ -15,7 +47,7 @@ A full-stack real-time messaging website: private chats, groups with roles, file
 ## Folder structure
 
 ```text
-realtime-chat-system/
+ChatTime/
 ├── client/                    # React app (Vite)
 │   ├── public/brand/          # Logo files
 │   └── src/
@@ -40,7 +72,16 @@ realtime-chat-system/
 └── uploads/                   # Stored files (not committed)
 ```
 
-## Requirements
+## Getting started
+
+Clone the repository, then follow the setup steps below. Commands use PowerShell.
+
+```powershell
+git clone https://github.com/aminanoor-ship-it/ChatTime.git
+cd ChatTime
+```
+
+### Requirements
 
 - Node.js 20 or newer
 - MySQL Server 8.x
